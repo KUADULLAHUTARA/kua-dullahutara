@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KUA Dullah Utara</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; background: #f9fafb; color: #1a202c; }
+        header {
+            background: #006a4e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+        header img {
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            height: 60px;
+        }
+        nav {
+            background: #059669;
+            padding: 12px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        section {
+            padding: 30px;
+            background: white;
+            margin: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+        }
+        h2 {
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 10px;
+        }
+        ul li {
+            margin-bottom: 8px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 15px;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            height: 120px;
+            object-fit: cover;
+        }
+        form input, form textarea, form button {
+            display: block; width: 100%; margin: 10px 0; padding: 12px;
+            border: 1px solid #ccc; border-radius: 6px;
+            font-size: 15px;
+        }
+        form button {
+            background: #006a4e; color: white; border: none; cursor: pointer;
+        }
+        footer {
+            background: #006a4e;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Logo_Kementerian_Agama_2020.svg/768px-Logo_Kementerian_Agama_2020.svg.png" alt="Logo Kemenag">
+    <h1>Website Resmi KUA Dullah Utara</h1>
+    <h3>Kementerian Agama Republik Indonesia</h3>
+</header>
+
+<nav>
+    <a href="#profil">Profil</a>
+    <a href="#layanan">Layanan</a>
+    <a href="#galeri">Galeri</a>
+    <a href="#formulir">Pendaftaran</a>
+    <a href="#kontak">Kontak</a>
+</nav>
+
+<section id="profil">
+    <h2>Profil KUA</h2>
+    <p>Kantor Urusan Agama (KUA) Dullah Utara hadir sebagai garda terdepan pelayanan keagamaan di bawah naungan Kementerian Agama RI. Kami melayani masyarakat dengan profesional, ramah, dan akuntabel.</p>
+</section>
+
+<section id="layanan">
+    <h2>Layanan Kami</h2>
+    <ul>
+        <li>Pendaftaran & Pencatatan Pernikahan</li>
+        <li>Pembuatan Surat Rekomendasi Nikah</li>
+        <li>Bimbingan Pra-Nikah</li>
+        <li>Pendaftaran Wakaf dan Konsultasi Keagamaan</li>
+    </ul>
+</section>
+
+<section id="galeri">
+    <h2>Galeri Kegiatan</h2>
+    <div class="gallery">
+        <img src="https://via.placeholder.com/200x120?text=Kegiatan+1" alt="Kegiatan 1">
+        <img src="https://via.placeholder.com/200x120?text=Kegiatan+2" alt="Kegiatan 2">
+        <img src="https://via.placeholder.com/200x120?text=Kegiatan+3" alt="Kegiatan 3">
+        <img src="https://via.placeholder.com/200x120?text=Kegiatan+4" alt="Kegiatan 4">
+    </div>
+</section>
+
+<section id="formulir">
+    <h2>Formulir Pendaftaran Nikah</h2>
+    <form>
+        <input type="text" placeholder="Nama Calon Suami" required>
+        <input type="text" placeholder="Nama Calon Istri" required>
+        <input type="date" placeholder="Tanggal Nikah" required>
+        <input type="tel" placeholder="Nomor HP" required>
+        <textarea placeholder="Alamat lengkap..." required></textarea>
+        <button type="submit">Kirim Pendaftaran</button>
+    </form>
+</section>
+
+<section id="kontak">
+    <h2>Kontak Kami</h2>
+    <p>Alamat: Jl. Contoh No.123, Dullah Utara, Kota Tual, Maluku</p>
+    <p>Email: kuadullahutara@kemenag.go.id</p>
+    <p>Telp: (0916) 123456</p>
+</section>
+
+<footer>
+    <p>&copy; 2025 KUA Dullah Utara - Kementerian Agama RI</p>
+</footer>
+
+</body>
+</html>
